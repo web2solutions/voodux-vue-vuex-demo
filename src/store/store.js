@@ -210,6 +210,7 @@ export default function vStore(foundation) {
       },
       async ADD_DOCUMENT(context, { entity, doc }) {
         const { error, data } = await foundation.data[entity].add(doc)
+        // this.commit(`ADD_${entity.toUpperCase()}`, eventObj)
         return { error, data }
       },
       async EDIT_DOCUMENT(context, { entity, __id, doc }) {

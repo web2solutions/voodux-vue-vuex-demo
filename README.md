@@ -1,7 +1,7 @@
 [<img src="https://i.imgur.com/a856gth.png" width="400" />](https://web2solutions.github.io/voodux/code/index.html)
 
 
-# <img src="https://avatars3.githubusercontent.com/u/14809007?s=280&v=4" width="50" /> voodux - Vue Demo
+# <img src="https://avatars3.githubusercontent.com/u/14809007?s=280&v=4" width="50" /> voodux - Vue && Vuex Demo 
 
 Vue application demo leveraging the [voodux](https://github.com/web2solutions/voodux) as it underlying architecture to handle it data.
 
@@ -10,7 +10,13 @@ Vue application demo leveraging the [voodux](https://github.com/web2solutions/vo
 
 It uses [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) as UI framework.
 
-`This project was NOT bootstrapped with Create React App.`
+## Implementation note:
+
+This is just one example to demonstrate an integration leveraging Vuex and Voodux.
+
+In the store, the mutations are triggered by voodux events. It could be differentm by eliminating the events setup and placing the mutations commit inside actions, which is a simples solution.
+
+The VooduX events are being used to illustrate a large environment which possibly could have a lot of side effect being propagated in response to a data change.
 
 ### Demo app
 
