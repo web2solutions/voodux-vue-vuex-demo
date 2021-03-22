@@ -18,6 +18,8 @@ In the store, the mutations are triggered by voodux events. It could be differen
 
 The VooduX events are being used to illustrate a large environment which possibly could have a lot of side effect being propagated in response to a data change.
 
+Also, the states are being prepopulated inside store's parent scope. The best practices tells to do things like that by dispatching `actions`.
+
 ### Demo app
 
 [Check the online demo](https://voodux-vue-vuex-demo.vercel.app/)
