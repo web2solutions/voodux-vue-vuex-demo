@@ -14,7 +14,7 @@ It uses [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduct
 
 This is just one example to demonstrate an integration leveraging Vuex and Voodux.
 
-In the store, the mutations are triggered by voodux events. It could be differentm by eliminating the events setup and placing the mutations commit inside actions, which is a simples solution.
+In the store, the mutations are triggered by voodux events. It could be different, by eliminating the events setup and placing the mutations commit inside actions, which is a simplest solution.
 
 The VooduX events are being used to illustrate a large environment which possibly could have a lot of side effect being propagated in response to a data change.
 
